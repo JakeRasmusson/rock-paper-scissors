@@ -58,7 +58,7 @@ function game() {
             alert(youLoseString)
         } 
         let humanContinue = confirm("Would you like to play again?")
-        if (humanContinue == true) {
+        if (humanContinue) {
             game()
         } else {
             alert(`My Record: Wins ${myRecord.wins} Loses ${myRecord.losses} Ties ${myRecord.ties} 
